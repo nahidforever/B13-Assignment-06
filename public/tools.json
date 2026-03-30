@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Pro Resume Builder",
+    "description": "Create professional resumes in minutes with AI assistance.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best_seller",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/Fkwz6XjN/resume.png"
+  },
+  {
+    "id": 2,
+    "name": "Premium Portfolio",
+    "description": "Build a stunning online portfolio to showcase your work.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Custom domains", "Drag & drop editor", "Responsive design"],
+    "icon": "https://i.ibb.co.com/RnKbpr3/portfolio.png"
+  },
+  {
+    "id": 3,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate personalized cover letters with AI assistance.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["AI suggestions", "Multiple templates", "Export to PDF"],
+    "icon": "https://i.ibb.co.com/hFtjyYC5/writing-2327400-1.png"
+  },
+  {
+    "id": 4,
+    "name": "Job Tracker Pro",
+    "description": "Track applications, interviews, and follow-ups in one place.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Application history", "Interview reminders", "Analytics dashboard"],
+    "icon": "https://i.ibb.co.com/7xtgqzVz/target.png"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimization",
+    "description": "Optimize your LinkedIn profile to get noticed by recruiters.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "Best Seller",
+    "tagType": "best_seller",
+    "features": ["Profile analysis", "Keyword suggestions", "Endorsement tips"],
+    "icon": "https://i.ibb.co.com/qLwznGtK/linkedin.png"
+  },
+  {
+    "id": 6,
+    "name": "Career Booster Subscription",
+    "description": "Access all career tools including resume, cover letters, and portfolio.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "New",
+    "tagType": "new",
+    "features": ["All-in-one tools", "Weekly updates", "Priority support"],
+    "icon": "https://i.ibb.co.com/GQRXmhsx/subscription-active.png"
+  },
+  {
+    "id": 7,
+    "name": "Interview Prep AI",
+    "description": "Practice interview questions and get AI feedback on answers.",
+    "price": 49.99,
+    "period": "one-time",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": ["Mock interviews", "Answer scoring", "Tips & tricks"],
+    "icon": "https://i.ibb.co.com/5gbvJhnq/job-interview.png"
+  },
+  {
+    "id": 8,
+    "name": "Skill Assessment Pro",
+    "description": "Test and validate your professional skills with detailed reports.",
+    "price": 24.99,
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best_seller",
+    "features": ["Skill tests", "Detailed reports", "Certification badges"],
+    "icon": "https://i.ibb.co.com/V0qcTgnd/pencil.png"
+  }
+]
