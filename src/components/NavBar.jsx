@@ -45,7 +45,7 @@ const NavBar = () => {
               </li>
             </ul>
           </div>
-          <a className="bg-gradient-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-3xl font-bold">
+          <a className="bg-linear-to-r from-[#4F39F6] to-[#9514FA] bg-clip-text text-transparent text-3xl font-bold">
             DigiTools
           </a>
         </div>
@@ -73,7 +73,7 @@ const NavBar = () => {
         <div className="navbar-end gap-4">
           <img src={navShoppingCart} alt="Nav Shopping Cart" />
           <p>Login</p>
-          <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
+          <a className="btn bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
             Get Started
           </a>
         </div>
