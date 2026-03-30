@@ -44,7 +44,7 @@ const Banner = () => {
         <div className="relative flex justify-center lg:justify-end">
           <div className="relative">
             <img
-              className="w-full max-w-md md:max-w-md h-auto object-contain rounded-lg"
+              className="w-full max-w-md md:w-125 h-147 object-contain rounded-lg"
               src={BannerImage}
               alt="Banner"
             />
