@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import NavBar from "./components/NavBar";
 import Stats from "./components/Stats";
 import Tools from "./components/Tools";
+import Cart from "./components/Cart";
 
 const fetchTools = async () => {
   const res = await fetch("/tools.json");
@@ -14,6 +15,9 @@ const toolsPromise = fetchTools();
 
 function App() {
   const [activeTab, setActiveTab] = useState("products");
+
+  const [carts, setCarts] = useState([]);
+
   return (
     <>
       <NavBar></NavBar>
@@ -53,7 +57,15 @@ function App() {
         </div>
       </div>
 
-      <Tools toolsPromise={toolsPromise}></Tools>
+      {activeTab === "products" && (
+        <Tools
+          toolsPromise={toolsPromise}
+          carts={carts}
+          setCarts={setCarts}
+        ></Tools>
+      )}
+
+      {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
     </>
   );
 }
