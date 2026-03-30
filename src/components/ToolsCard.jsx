@@ -1,6 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 
 const ToolsCard = ({ tool }) => {
+  const [isBuyNow, setIsBuyNow] = useState(false);
+
+  const handleBuyNow = () => {
+    setIsBuyNow(true);
+  };
   return (
     <div>
       <div className="card bg-base-100 shadow-sm">
@@ -75,8 +80,11 @@ const ToolsCard = ({ tool }) => {
           </div>
 
           <div className="mt-4">
-            <button className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white">
-              Buy Now
+            <button
+              onClick={handleBuyNow}
+              className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white"
+            >
+              {isBuyNow ? "Added To Cart" : "Buy Now"}
             </button>
           </div>
         </div>
