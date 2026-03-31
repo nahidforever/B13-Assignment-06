@@ -7,6 +7,7 @@ import Tools from "./components/Tools";
 import Cart from "./components/Cart";
 import Steps from "./components/Steps";
 import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 const fetchTools = async () => {
   const res = await fetch("/tools.json");
@@ -71,8 +72,9 @@ function App() {
 
       <Steps></Steps>
 
-
       <Pricing></Pricing>
+
+      <Footer></Footer>
     </>
   );
 }
