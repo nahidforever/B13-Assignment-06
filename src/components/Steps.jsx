@@ -15,7 +15,7 @@ const Steps = () => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-5 mt-10 mb-30">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10 mb-30">
         <div className="shadow-sm rounded-lg py-22 px-6">
           <div className="flex justify-end">
             <span className=" -mt-20 w-9 h-9 flex items-center justify-center rounded-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] text-white font-medium">

@@ -6,6 +6,7 @@ import Stats from "./components/Stats";
 import Tools from "./components/Tools";
 import Cart from "./components/Cart";
 import Steps from "./components/Steps";
+import Pricing from "./components/Pricing";
 
 const fetchTools = async () => {
   const res = await fetch("/tools.json");
@@ -69,6 +70,9 @@ function App() {
       {activeTab === "cart" && <Cart carts={carts} setCarts={setCarts}></Cart>}
 
       <Steps></Steps>
+
+
+      <Pricing></Pricing>
     </>
   );
 }
