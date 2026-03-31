@@ -42,21 +42,23 @@ function App() {
 
         {/* name of each tab group should be unique */}
         <div className="tabs tabs-box justify-center bg-transparent mt-4">
-          <input
-            type="radio"
-            name="my_tabs_1"
-            className={`tab text-black ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white" : ""}`}
-            aria-label="Products"
-            defaultChecked
-            onClick={() => setActiveTab("products")}
-          />
-          <input
-            type="radio"
-            name="my_tabs_1"
-            className={`tab text-black ${activeTab === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white" : ""}`}
-            aria-label={`Cart (${carts.length})`}
-            onClick={() => setActiveTab("cart")}
-          />
+          <div className="shadow-sm rounded-full ">
+            <input
+              type="radio"
+              name="my_tabs_1"
+              className={`tab text-black ${activeTab === "products" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white" : ""}`}
+              aria-label="Products"
+              defaultChecked
+              onClick={() => setActiveTab("products")}
+            />
+            <input
+              type="radio"
+              name="my_tabs_1"
+              className={`tab text-black ${activeTab === "cart" ? "bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white" : ""}`}
+              aria-label={`Cart (${carts.length})`}
+              onClick={() => setActiveTab("cart")}
+            />
+          </div>
         </div>
       </div>
 
