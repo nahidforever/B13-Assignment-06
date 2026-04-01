@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaCheck } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 const ToolsCard = ({ tool, carts, setCarts }) => {
@@ -93,8 +94,9 @@ const ToolsCard = ({ tool, carts, setCarts }) => {
           <div className="mt-4">
             <button
               onClick={handleBuyNow}
-              className="btn w-full bg-linear-to-r from-[#4F39F6] to-[#9514FA] rounded-full text-white"
+              className={`btn w-full ${isBuyNow ? "bg-green-600" : "bg-linear-to-r from-[#4F39F6] to-[#9514FA] "} rounded-full text-white flex items-center justify-center gap-2`}
             >
+            {isBuyNow && <FaCheck></FaCheck>}
               {isBuyNow ? "Added To Cart" : "Buy Now"}
             </button>
           </div>
