@@ -19,8 +19,8 @@ The project focuses on **dynamic UI interaction, cart management, and responsive
 
 ## 🔗 Live Project
 
-- Live Site: https://your-live-link.com
-- Repository: https://github.com/your-username/digitools
+- Live Site: https://digital-tools-buying-web-assignment-6.netlify.app/
+- Repository: https://github.com/nahidforever/B13-Assignment-06.git
 
 ---
 
@@ -118,7 +118,7 @@ Follow these steps to run the project on your local machine:
 
 1️⃣ **Clone the Repository**
 ```bash
-git clone https://github.com/your-username/digitools.git
+https://github.com/nahidforever/B13-Assignment-06.git
 ```
 
 2️⃣ **Navigate to Project Folder**
